@@ -1,0 +1,185 @@
+/* colors:
+
+
+
+ */
+ /* ======================== general ===================== */
+ html, body {
+background-color:#5f94d5;
+color: white;
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+text-shadow:
+   -0.25px -0.25px 0 black,
+   0.25px -0.25px 0 black,
+   -0.25px 0.25px 0 black,
+   0.25px 0.25px 0 black; /* Creates black shadows in all four directions */
+border-style: solid;
+border-color: white;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+/*
+* {
+outline: 1px solid red;
+}
+ */
+/* Helps spot any overflow */
+
+
+ /* ======================== navbar menu ===================== */
+ #navigation {
+
+ }
+
+.linkSpace {
+  padding: 8px;
+}
+.linkPosition {
+  position: absolute;
+  right: 0;
+}
+
+/* ====== media ========*/
+@media (max-width: 1024px) {
+
+}
+/* =================== main page  =============== */
+.main-div{
+}
+.main-background {
+  height: 52rem;
+  background-image: url('IMG_7493.jpg');
+  background-position: center;
+  background-size: 30rem;
+  border-bottom-style: solid;
+  border-color: white;
+  border-bottom-width: medium;
+}
+.main-heading{
+  font-size: 6em;
+  letter-spacing: 6px;
+  text-align: center;
+  vertical-align: top;
+  padding: 2%;
+  animation: fadeIn 1s ease-in-out forwards; /* Apply the animation */
+}
+@media (max-width:480px) {
+  .main-heading{
+    font-size: 3.5rem;
+    padding: 3%;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* Start completely transparent */
+  }
+  100% {
+    opacity: 1; /* End fully opaque */
+  }
+}
+/* =================== about me page  =============== */
+#about-me {
+
+}
+.about-me-div {
+
+}
+.me-heading {
+  padding: 5% 0 0 5%;
+  font-size: 2.5rem;
+}
+.me-paragraph {
+  letter-spacing: 2px;
+  padding: 5%;
+}
+.me-1 {
+
+}
+.me-2 {
+
+}
+
+/* ======================== carousel ===================== */
+
+.carousel-div {
+  height: 32rem;
+  border-style: solid;
+  border-color: white;
+  padding: 0;
+}
+.heading-website {
+  text-align: center;
+  padding: 0.5%;
+  text-decoration: underline;
+}
+.img-website {
+  height: 25rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width:480px) {
+  .image-website {
+    display: inline;
+    width: 50%;
+    margin: 0;
+  }
+}
+
+/* =================== qualifications =============== */
+#qualifications {
+}
+.qualifications-div {
+  border-style: solid;
+  border-color: white;
+  padding: 5% 0;
+}
+.qualifications-heading {
+  font-size: 2.5rem;
+}
+.qualifications-subheading {
+  font-size: 2rem;
+}
+@media (max-width:480px) {
+  .qualifications-heading {
+    font-size: 2rem;
+  }
+  .qualifications-subheading {
+    font-size: 1.5rem;
+  }
+}
+
+/* =================== socials =============== */
+#socials {
+  height: 5rem;
+  background-color: ;
+}
+.socials-link {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: 1s 0s;
+}
+.socials-link:hover {
+  opacity: 70%;
+}
+.footer-heading{
+  letter-spacing: 6px;
+}
+@media (max-width:480px) {
+  #socials {
+    height: 7rem;
+  }
+}
