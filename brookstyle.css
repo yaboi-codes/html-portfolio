@@ -1,0 +1,368 @@
+/* colors:
+#FAF9F6
+#00BFFF
+
+ */
+ /* ======================== general ===================== */
+ html, body {
+   background: linear-gradient(to top left, whitesmoke);
+   color: black;
+   overflow-x: hidden;
+   line-height: 1.7;
+   color: #222;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+}
+section{
+
+}
+
+/*
+* {
+outline: 1px solid red;
+}
+ */
+/* Helps spot any overflow */
+
+
+ /* ======================== navbar menu ===================== */
+ #navigation {
+ }
+.main-nav {
+  background-color: rgba(250,249,246,0.95);
+  position: sticky;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+.linkSpace {
+  padding: 8px;
+}
+.linkPosition {
+  position: absolute;
+  right: 0;
+}
+.nav-link:hover{
+  color:#00BFFF !important;
+}
+
+.nav-name {
+  align-items: flex-end;
+}
+
+/* ====== media ========*/
+@media (max-width: 1024px) {
+
+}
+/* =================== main page  =============== */
+.main-div{
+  height: fit-content;
+}
+.main-background {
+/*
+  background-image: url('IMG_7493.jpg');
+  background-position: left;
+  border-bottom-style: solid;
+  background-size: 25rem;
+  border-color: white;
+  border-bottom-width: medium;
+  background-repeat: no-repeat;
+  border-radius: 60%;
+  */
+}
+.main-img-background {
+  background-image: url('');
+  background-size: 60rem;
+  background-repeat: no-repeat;
+  height: 30rem;
+}
+.main-img{
+  height: -webkit-fill-available;
+  border-style: solid;
+  border-color: #FAF9F6;
+  border-width: thin;
+  background-image: url('images/IMG_6018_1.jpg');
+  background-size: cover;
+  background-position-x: 75%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main-img-text {
+
+}
+
+/*
+.main-img::before{
+  content: "";
+  position: absolute;
+  inset:0;
+  background: rgba(0,0,0,0.35);
+}
+*/
+
+.main-text{
+  background-color: white;
+  max-width: 700pc;
+  padding: 1.5rem;
+  margin: auto;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+.main-paragraph {
+  font-size: x-large;
+}
+.main-center {
+  align-items: center;
+  height: auto;
+}
+.main-heading {
+  font-size: 4rem;
+  font-weight: 200;
+}
+.main-subheading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  opacity: .9;
+}
+.main-heading,
+.main-subheading{
+  position: relative;
+  z-index: 2;
+}
+
+@keyframes fadeIn {
+}
+/* =================== about me page  =============== */
+#about-me {
+
+}
+.about-me-div {
+
+}
+.me-heading {
+  padding: 5% 0 0 5%;
+  font-size: 2.5rem;
+}
+.me-paragraph {
+  letter-spacing: 2px;
+  padding: 5%;
+}
+.me-1 {
+
+}
+.me-2 {
+
+}
+
+/* ======================== carousel section ===================== */
+.main-carousel-div {
+  height: 120%;
+}
+.carousel-div {
+padding: 6rem 0 0;
+}
+.heading-website {
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: center;
+}
+.img-website {
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+  width: stretch;
+}
+.carousel-explained-text {
+  background-color: white;
+}
+.CCPI-color {
+  background-color: lightgreen;
+}
+.website-link {
+  color: white;
+  background: darkseagreen;
+  display: block;
+  margin: auto;
+  transition:.3s ease;
+  text-align: center;
+  padding: .5%;
+}
+.website-link:hover{
+  transform:translate(-3px);
+}
+
+/* =================== qualifications
+#qualifications {
+}
+.qualifications-div {
+  padding: 5% 0;
+  background: #FAF9F6;
+  display: inline-block;
+}
+.qualifications-heading {
+  font-size: 2.5rem;
+}
+.qualifications-subheading {
+  font-size: 2rem;
+}
+=============== */
+
+/* =================== modeling-carousel =============== */
+.main-picture-set {
+
+}
+.name {
+  display: inline-block;
+  width: 19%;
+}
+.group-slides {
+  display: inline-flex;
+  width: 40%;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.model-pics {
+  width: 75%;
+}
+.carousel-inner-extended {
+
+}
+.carousel-item-extended {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: fit-content;
+  margin: auto;
+}
+.model-pic-1 {
+
+}
+=================== socials =============== */
+#socials {
+
+}
+.socials-div .container h3 {
+  text-align: center;
+  font-size: 4rem
+}
+.socials-div {
+  padding: 6% 0;
+}
+.socials-subdiv {
+
+}
+.socials-link {
+  color: forestgreen;
+  text-decoration: none;
+  transition: .3s ease;
+    text-shadow:
+       -0.15px -0.15px 0 black,
+       0.15px -0.15px 0 black,
+       -0.15px 0.15px 0 black,
+       0.15px 0.15px 0 black; /* Creates black shadows in all four directions */
+  font-size: 2rem;
+  margin: 0 1%;
+  padding: 0 1%;
+  border-bottom-style: double;
+}
+.socials-link:hover {
+  font-weight: 500;
+  transform: translateY(-2px);
+}
+.footer-heading{
+  letter-spacing: 6px;
+}
+
+/* =================== footer =============== */
+
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+}
+/* =================== phone optimization =============== */
+
+@media (max-width:900px) {
+  /* ======== navigation ======== */
+.nav-name {
+display: none;
+}
+.main-nav {
+
+}
+.main-nav-container {
+  justify-content: center !important;
+}
+
+  /* ======== main ======== */
+ .main-div {
+   height: fit-content;
+ }
+ .main-center {
+   height: auto;
+   margin: auto;
+   display: block;
+ }
+.main-img {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  border-top: hidden;
+  border-bottom: hidden;
+  height: 35rem;
+  background-position-x: 71%;
+}
+.main-text {
+  align-items: center;
+  margin: 0 3%;
+  width: fit-content;
+}
+.main-heading {
+  justify-content: center;
+  display: flex;
+  font-size: xx-large;
+}
+ /* ======== qualifications ======== */
+ .qualifications-heading {
+   font-size: 2rem;
+ }
+ .qualifications-subheading {
+   font-size: 1.5rem;
+ }
+
+ /* ======== carousel ======== */
+.heading-website {
+  width: auto;
+  position: static;
+  margin-bottom: 1.75%;
+}
+.img-website {
+  width: 100%;
+  height: 20rem;
+}
+.CCPI-color {
+  background-color: inherit;
+}
+.website-link {
+  margin: auto;
+}
+ /* ======== socials ======== */
