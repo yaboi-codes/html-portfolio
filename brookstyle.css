@@ -134,6 +134,7 @@ outline: 1px solid red;
 .main-heading {
   font-size: 4rem;
   font-weight: 200;
+  text-align: center;
 }
 .main-subheading{
   display: flex;
