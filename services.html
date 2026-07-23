@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Brooklyn Khumalo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="favicon (1)/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="favicon (1)/favicon.svg" />
+  <link rel="shortcut icon" href="favicon (1)/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon (1)/apple-touch-icon.png" />
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <script src="https://kit.fontawesome.com/b826e83c31.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" href="images/icon BK 2.png">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ========== NAVBAR ========== -->
+  <nav id="navigation" class="main-nav navbar">
+    <div class="container main-nav-container">
+      <a class="navbar-brand nav-name" href="index.html#hero">Brooklyn Khumalo</a>
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="#services" class="nav-link linkSpace">Services</a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html#projects" class="nav-link linkSpace">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html#about" class="nav-link linkSpace">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html#connect" class="nav-link linkSpace">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== SERVICES ========== -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <p class="section-eyebrow">What I Offer</p>
+      <h2 class="section-heading">Website Development</h2>
+
+      <div class="services-grid">
+        <!-- Package 1 -->
+        <div class="service-card">
+          <h3 class="service-title">Front-End Build</h3>
+          <p class="service-price">R899.99</p>
+          <ul class="service-features">
+            <li>Custom-built HTML structure</li>
+            <li>Styled with CSS to match your brand</li>
+            <li>Interactive functionality with JS</li>
+            <li>Fully responsive (mobile, tablet, desktop)</li>
+            <li>Source files handed over to you</li>
+          </ul>
+          <button type="button" class="service-btn" data-bs-toggle="modal" data-bs-target="#serviceModal" data-package="Front-End Build">
+            Get Started
+          </button>
+        </div>
+
+        <!-- Package 2 -->
+        <div class="service-card service-card-featured">
+          <p class="service-badge">Most Popular</p>
+          <h3 class="service-title">Front-End + Hosting</h3>
+          <p class="service-price">R1299.99</p>
+          <ul class="service-features">
+            <li>Everything in Front-End Build</li>
+            <li>Domain connection & setup guidance</li>
+            <li>Hosting & deployment handled for you</li>
+            <li>Ongoing hosting management</li>
+            <li>Basic maintenance support</li>
+          </ul>
+          <button type="button" class="service-btn" data-bs-toggle="modal" data-bs-target="#serviceModal" data-package="Front-End + Hosting">
+            Get Started
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICE REQUEST MODAL ========== -->
+  <div class="modal fade" id="serviceModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content service-modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Request A Quote</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="https://formsubmit.co/c61a2a352bd3258cb6be2ff8c419ad6b" method="POST">
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New Service Request">
+
+            <div class="form-group">
+              <label>package selected</label>
+              <select name="Package" id="selectedPackage" class="form-selector">
+                <option value="Front-End Build">Front-End Build</option>
+                <option value="Front-End + Hosting">Front-End + Hosting</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" name="Name" required>
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" name="Email" required>
+            </div>
+            <div class="form-group">
+              <label>Phone (optional)</label>
+              <input type="tel" name="Phone">
+            </div>
+            <div class="form-group">
+              <label>Project Details</label>
+              <textarea rows="4" name="Details" placeholder="Tell me a bit about what you need..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Request</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
