@@ -808,6 +808,10 @@ h1, h2, h3, h4 {
     padding: 7px;
   }
 
+     .nav-name {
+    font-size: 1.3rem;
+  }
+   
 }
 
 /* ===== TABLET ===== */
