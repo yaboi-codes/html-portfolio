@@ -439,7 +439,7 @@ h1, h2, h3, h4 {
 
 .connect-section {
     background-color: var(--surface);
-    padding: 100px;
+    padding: 100px 0;
     border-top: 1px solid var(--border);
 }
 
@@ -782,10 +782,6 @@ h1, h2, h3, h4 {
     max-width: 100%;
   }
 
-  .services-section {
-    padding: 25px 0;
-  }
-
   .connect-hub {
     padding: 48px 24px 32px;
   }
@@ -813,6 +809,10 @@ h1, h2, h3, h4 {
     font-size: 1.3rem;
   }
 
+  .services-section {
+    padding: 100px 0;
+  }
+
 }
 
 /* ===== TABLET ===== */
@@ -834,7 +834,5 @@ h1, h2, h3, h4 {
     right: 0;
   }
 
-  .services-section {
-    padding: 100px 0;
-  }
+
 }
