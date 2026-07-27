@@ -439,7 +439,7 @@ h1, h2, h3, h4 {
 
 .connect-section {
     background-color: var(--surface);
-    padding-top: 50px;
+    padding: 100px;
     border-top: 1px solid var(--border);
 }
 
@@ -733,7 +733,7 @@ h1, h2, h3, h4 {
 /* ===== MOBILE ===== */
 @media (max-width: 768px) {
   .hero-section {
-    padding: 73px 0;
+    padding: 100px 0;
     min-height: auto;
   }
 
@@ -805,13 +805,14 @@ h1, h2, h3, h4 {
 
   .main-nav {
     position: fixed;
-    padding: 7px;
+    padding: 14px;
+    width: 100%;
   }
 
-     .nav-name {
+  .nav-name {
     font-size: 1.3rem;
   }
-   
+
 }
 
 /* ===== TABLET ===== */
@@ -834,6 +835,6 @@ h1, h2, h3, h4 {
   }
 
   .services-section {
-    padding: 3.5rem 0;
+    padding: 100px 0;
   }
 }
