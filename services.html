@@ -31,22 +31,20 @@
 <body>
   <!-- ========== NAVBAR ========== -->
   <nav id="navigation" class="main-nav navbar">
-    <div class="container main-nav-container">
-      <a class="navbar-brand nav-name" href="index.html#hero">Brooklyn Khumalo</a>
-      <ul class="nav">
-        <li class="nav-item">
-          <a href="#services" class="nav-link linkSpace">Services</a>
-        </li>
-        <li class="nav-item">
-          <a href="index.html#projects" class="nav-link linkSpace">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a href="index.html#about" class="nav-link linkSpace">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="index.html#connect" class="nav-link linkSpace">Contact</a>
-        </li>
-      </ul>
+    <div class="container main-nav-container d-flex align-items-center justify-content-between">
+      <a class="navbar-brand nav-name" href="index.html">Brooklyn Khumalo</a>
+
+      <div class="dropdown">
+        <button class="nav-dropdown-toggle" type="button" id="navDropdownBtn" data-bs-toggle="dropdown" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span><i class="fas fa-chevron-down" aria-hidden="true"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end nav-dropdown-menu" aria-labelledby="navDropdownBtn">
+          <li><a class="dropdown-item nav-dropdown-item" href="#services">Services</a></li>
+          <li><a class="dropdown-item nav-dropdown-item" href="index.html#projects">Projects</a></li>
+          <li><a class="dropdown-item nav-dropdown-item" href="index.html#about">About</a></li>
+          <li><a class="dropdown-item nav-dropdown-item" href="index.html#connect">Contact</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
 
@@ -137,6 +135,15 @@
       </div>
     </div>
   </div>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    © 2026 Brooklyn Khumalo
+  </footer>
+
+  <script src="BKscript.js" charset="utf-8"></script>
+  <script src="https://jsdelivr.net"></script>
+
 </body>
 
 </html>
